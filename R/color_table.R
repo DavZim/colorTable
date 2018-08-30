@@ -92,7 +92,7 @@ color_table <- function(x,
                         format) {
 
   if (!is.data.frame(x)) x <- as.data.frame(x, stringsAsFactors = F)
-  if (hide_body) x[, ] <- ""
+  if (hide_body) x[, ] <- "."
 
   if (missing(format)) {
     if (knitr::is_latex_output()) {

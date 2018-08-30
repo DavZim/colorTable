@@ -4,7 +4,7 @@
 \alias{color_table}
 \title{Creates a html or latex colored table}
 \usage{
-color_table(x, body_bg = "#74add1", header_bg = "dodgerblue2",
+color_table(x, body_bg = "#a6d96a", header_bg = "#74add1",
   body_color = "black", body_bold = FALSE, header_color = "black",
   header_bold = TRUE, align = "c", hide_body = FALSE, row_bgs = NA,
   col_bgs = NA, view = FALSE, cell_width = "15px", format)
